@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../components/footer';
 
 /* eslint-disable */
 
@@ -19,6 +20,7 @@ const ContactPage = () => {
                         </a>
                     </li>
             </ul>
+            <Footer />
         </div>
     )
 };
