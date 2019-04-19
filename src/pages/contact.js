@@ -1,11 +1,13 @@
 import React from 'react';
 import Footer from '../components/footer';
+import Header from '../components/header';
 
 /* eslint-disable */
 
 const ContactPage = () => {
     return (
         <div>
+            <Header />
             <h1>Contact</h1>
             <h2>Contact Info:</h2>
             <ul>
