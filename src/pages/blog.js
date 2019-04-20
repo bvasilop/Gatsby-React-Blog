@@ -29,6 +29,7 @@ const BlogPage = () => {
                                 <li>
                                 <h2>{edge.node.frontmatter.title}</h2>
                                 <p>{edge.node.frontmatter.date}</p>
+
                                 </li>
                             )
                         })}
