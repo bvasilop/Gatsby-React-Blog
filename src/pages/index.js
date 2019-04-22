@@ -3,8 +3,6 @@ import { Link } from 'gatsby';
 import Layout from '../components/layout';
 import Head from '../components/head';
 
-/* eslint-disable */
-
 const IndexPage = () => {
     return (
         <Layout>

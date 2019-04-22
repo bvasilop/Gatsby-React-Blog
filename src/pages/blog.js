@@ -4,9 +4,6 @@ import { Link, graphql, useStaticQuery } from 'gatsby';
 import blogStyles from './blog.module.scss';
 import Head from '../components/head';
 
-
-/* eslint-disable */
-
 const BlogPage = () => {
     const data = useStaticQuery(graphql`
     query {

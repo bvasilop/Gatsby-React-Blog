@@ -3,7 +3,6 @@ import Header from './header';
 import Footer from './footer';
 import '../styles/index.scss';
 import layoutStyles from './layout.module.scss';
-/* eslint-disable */
 
 const Layout = (props) => {
     return (
