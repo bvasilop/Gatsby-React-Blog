@@ -44,6 +44,7 @@ html {
   a {
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
+    text-decoration: none;
   }
   a:active,
   a:hover {
@@ -202,7 +203,11 @@ html {
   }
   body {
     background: url('/mountain.jpg');
-    background-size: cover;
+
+    @media (min-width: 22rem) {
+        background-size: cover;
+        background-position: 50% 50%;
+    }
 
     color: hsla(0, 0%, 0%, 0.8);
     font-family: sans-serif;
@@ -348,6 +353,8 @@ html {
     margin-bottom: 1.45rem;
     list-style-position: outside;
     list-style-image: none;
+    list-style-type: none;
+    display: flex;
   }
   ol {
     margin-left: 1.45rem;
@@ -532,6 +539,12 @@ html {
     margin-bottom: calc(1.45rem / 2);
     margin-top: calc(1.45rem / 2);
   }
+  .contacts {
+      a {
+          margin-right: 1rem;
+      }
+    }
+
   blockquote *:last-child {
     margin-bottom: 0;
   }

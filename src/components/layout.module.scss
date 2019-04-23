@@ -9,3 +9,13 @@
 .content {
     flex-grow: 1;
 }
+h1 {
+    @media (min-width: 22rem) {
+        font-size: 1.65rem;
+    }
+}
+h2 {
+    @media (min-width: 22rem) {
+        font-size: 1.45rem;
+    }
+}

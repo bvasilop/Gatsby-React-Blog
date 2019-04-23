@@ -8,9 +8,10 @@ const ContactPage = () => {
             <Layout>
                 <Head title="Contact" />
                     <h1>Contact</h1>
+                    <p>If you are interested in connecting with me about other projects, I'd love to hear from you!</p>
                     <h2>Contact Info:</h2>
-                    <ul>
-                    <li>
+                    <ul className="contacts">
+                    <li >
                         <a href="mailto:bvasilop@gmail.com" target="_blank" data-toggle="tooltip" title="Send me an Email!">
                             bvasilop@gmail.com
                         </a>
