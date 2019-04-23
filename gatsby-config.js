@@ -1,6 +1,6 @@
 module.exports = {
     siteMetadata: {
-        title: 'Gatsby Static Site',
+        title: 'Blog | Bill Vasilopoulos',
         author: 'Bill Vasilopoulos'
     },
     plugins: [
